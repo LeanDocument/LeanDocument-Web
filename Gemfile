@@ -1,4 +1,4 @@
 source :rubygems
 gem 'sinatra'
 gem 'thin'
-gem 'leandocument'
+gem 'leandocument', '0.0.8'
