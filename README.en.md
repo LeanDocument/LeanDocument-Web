@@ -20,3 +20,13 @@ LeanDocument Currently developed by Ruby.
 
 And open *http://localhost:4567/*
 
+# How to write
+
+## Make directory for documents
+
+    $ mkdir _documents_
+    $ cd _documents_
+
+## Make README file
+
+    $ touch README.en.md
