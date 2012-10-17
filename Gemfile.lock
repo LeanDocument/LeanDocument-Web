@@ -1,0 +1,42 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    daemons (1.1.9)
+    diff-lcs (1.1.3)
+    eventmachine (1.0.0)
+    grit (2.5.0)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+      posix-spawn (~> 0.3.6)
+    leandocument (0.0.5)
+      grit
+      rdiscount
+      sinatra
+      sinatra-partial
+      slop
+    mime-types (1.19)
+    posix-spawn (0.3.6)
+    rack (1.4.1)
+    rack-protection (1.2.0)
+      rack
+    rdiscount (1.6.8)
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    sinatra-partial (0.3.2)
+      sinatra
+    slop (3.3.3)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    tilt (1.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  leandocument
+  sinatra
+  thin
